@@ -1,0 +1,603 @@
+[
+  {
+    "slug": "golden-hour",
+    "name": "Golden Hour",
+    "tagline": "Warm amber & sun-dried vanilla",
+    "category": "Jar Candles",
+    "vessel": "jar",
+    "wax": "#f1d9a8",
+    "accent": "#c98a3c",
+    "scentFamily": "Warm & Sweet",
+    "notes": {
+      "top": "Bergamot, Pink Pepper",
+      "heart": "Amber, Tonka Bean",
+      "base": "Vanilla, Sandalwood"
+    },
+    "description": "The glow of late afternoon, poured into a jar. Golden Hour wraps a room in soft amber and creamy vanilla — our most-loved scent and the perfect introduction to TAWA.",
+    "badge": "Bestseller",
+    "compareAt": null,
+    "stock": 40,
+    "featured": true,
+    "sort": 0,
+    "sizes": [
+      {
+        "code": "s",
+        "label": "Petite · 4 oz",
+        "weight": "113 g",
+        "burn": "25 hrs",
+        "price": 1800
+      },
+      {
+        "code": "m",
+        "label": "Classic · 8 oz",
+        "weight": "227 g",
+        "burn": "50 hrs",
+        "price": 3400
+      },
+      {
+        "code": "l",
+        "label": "Grand · 12 oz",
+        "weight": "340 g",
+        "burn": "75 hrs",
+        "price": 4700
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Amara K.",
+        "rating": 5,
+        "title": "Smells like home",
+        "body": "Filled my whole flat within twenty minutes. The vanilla is never sugary — just soft and warm.",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "Daniel O.",
+        "rating": 5,
+        "title": "Perfect gift",
+        "body": "Bought for my mum and she has already asked for two more.",
+        "date": "2026-09-18"
+      },
+      {
+        "name": "Lina M.",
+        "rating": 4,
+        "title": "Lovely, slightly subtle",
+        "body": "Beautiful scent and a clean burn. I would go for the grand size next time.",
+        "date": "2026-08-30"
+      }
+    ]
+  },
+  {
+    "slug": "midnight-oud",
+    "name": "Midnight Oud",
+    "tagline": "Smoked oud, black fig & leather",
+    "category": "Jar Candles",
+    "vessel": "tumbler",
+    "wax": "#6b5445",
+    "accent": "#2f2018",
+    "scentFamily": "Dark & Woody",
+    "notes": {
+      "top": "Black Fig, Cardamom",
+      "heart": "Oud, Rose Absolute",
+      "base": "Leather, Smoked Cedar"
+    },
+    "description": "Deep, resinous and quietly dramatic. Midnight Oud is made for slow evenings, rain on the window and a good book.",
+    "badge": "New",
+    "compareAt": null,
+    "stock": 25,
+    "featured": true,
+    "sort": 1,
+    "sizes": [
+      {
+        "code": "s",
+        "label": "Petite · 4 oz",
+        "weight": "113 g",
+        "burn": "25 hrs",
+        "price": 2100
+      },
+      {
+        "code": "m",
+        "label": "Classic · 8 oz",
+        "weight": "227 g",
+        "burn": "50 hrs",
+        "price": 3900
+      },
+      {
+        "code": "l",
+        "label": "Grand · 12 oz",
+        "weight": "340 g",
+        "burn": "75 hrs",
+        "price": 5450
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Samir A.",
+        "rating": 5,
+        "title": "Luxurious",
+        "body": "Rich without being heavy. Burns evenly all the way down.",
+        "date": "2026-10-21"
+      },
+      {
+        "name": "Joy N.",
+        "rating": 5,
+        "title": "Obsessed",
+        "body": "The leather and rose pairing is unreal.",
+        "date": "2026-10-05"
+      }
+    ]
+  },
+  {
+    "slug": "sea-salt-sage",
+    "name": "Sea Salt & Sage",
+    "tagline": "Coastal air, driftwood & green sage",
+    "category": "Jar Candles",
+    "vessel": "jar",
+    "wax": "#dfe6dd",
+    "accent": "#7f9a8a",
+    "scentFamily": "Fresh & Green",
+    "notes": {
+      "top": "Sea Salt, Lemon Zest",
+      "heart": "Sage, Eucalyptus",
+      "base": "Driftwood, White Musk"
+    },
+    "description": "A breath of ocean air. Crisp, mineral and calm — it freshens any room and softens the mind.",
+    "badge": null,
+    "compareAt": null,
+    "stock": 52,
+    "featured": true,
+    "sort": 2,
+    "sizes": [
+      {
+        "code": "s",
+        "label": "Petite · 4 oz",
+        "weight": "113 g",
+        "burn": "25 hrs",
+        "price": 1800
+      },
+      {
+        "code": "m",
+        "label": "Classic · 8 oz",
+        "weight": "227 g",
+        "burn": "50 hrs",
+        "price": 3400
+      },
+      {
+        "code": "l",
+        "label": "Grand · 12 oz",
+        "weight": "340 g",
+        "burn": "75 hrs",
+        "price": 4700
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Grace W.",
+        "rating": 5,
+        "title": "So fresh",
+        "body": "My bathroom smells like a spa now.",
+        "date": "2026-09-29"
+      },
+      {
+        "name": "Tom R.",
+        "rating": 4,
+        "title": "Clean and calm",
+        "body": "Not overpowering, which I love.",
+        "date": "2026-09-02"
+      }
+    ]
+  },
+  {
+    "slug": "rose-petal-dream",
+    "name": "Rose Petal Dream",
+    "tagline": "Fresh roses, peony & white tea",
+    "category": "Jar Candles",
+    "vessel": "jar",
+    "wax": "#f3d3d0",
+    "accent": "#c47a7a",
+    "scentFamily": "Floral",
+    "notes": {
+      "top": "Peony, Lychee",
+      "heart": "Damask Rose, Jasmine",
+      "base": "White Tea, Soft Musk"
+    },
+    "description": "An English garden after rain. Romantic and airy, with a soft powdery finish.",
+    "badge": "Bestseller",
+    "compareAt": null,
+    "stock": 33,
+    "featured": false,
+    "sort": 3,
+    "sizes": [
+      {
+        "code": "s",
+        "label": "Petite · 4 oz",
+        "weight": "113 g",
+        "burn": "25 hrs",
+        "price": 1800
+      },
+      {
+        "code": "m",
+        "label": "Classic · 8 oz",
+        "weight": "227 g",
+        "burn": "50 hrs",
+        "price": 3400
+      },
+      {
+        "code": "l",
+        "label": "Grand · 12 oz",
+        "weight": "340 g",
+        "burn": "75 hrs",
+        "price": 4700
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Fatima S.",
+        "rating": 5,
+        "title": "Gorgeous",
+        "body": "Genuinely smells like fresh roses, not perfume.",
+        "date": "2026-10-11"
+      }
+    ]
+  },
+  {
+    "slug": "cinnamon-hearth",
+    "name": "Cinnamon Hearth",
+    "tagline": "Spiced orange, clove & toasted oak",
+    "category": "Tin Candles",
+    "vessel": "tin",
+    "wax": "#e4b98a",
+    "accent": "#a65a2a",
+    "scentFamily": "Warm & Spicy",
+    "notes": {
+      "top": "Orange Peel, Clove",
+      "heart": "Cinnamon Bark, Nutmeg",
+      "base": "Toasted Oak, Amber"
+    },
+    "description": "Cosy in a tin. Travel-friendly, with a generous throw and the comfort of a fireplace.",
+    "badge": null,
+    "compareAt": null,
+    "stock": 60,
+    "featured": false,
+    "sort": 4,
+    "sizes": [
+      {
+        "code": "s",
+        "label": "Mini · 3 oz",
+        "weight": "85 g",
+        "burn": "18 hrs",
+        "price": 1300
+      },
+      {
+        "code": "m",
+        "label": "Travel · 6 oz",
+        "weight": "170 g",
+        "burn": "35 hrs",
+        "price": 2350
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Ben T.",
+        "rating": 5,
+        "title": "Autumn in a tin",
+        "body": "Takes it with me when I travel.",
+        "date": "2026-10-26"
+      }
+    ]
+  },
+  {
+    "slug": "lavender-fields",
+    "name": "Lavender Fields",
+    "tagline": "French lavender, chamomile & cream",
+    "category": "Tin Candles",
+    "vessel": "tin",
+    "wax": "#d9d0e6",
+    "accent": "#8a79b0",
+    "scentFamily": "Floral",
+    "notes": {
+      "top": "Lavender, Bergamot",
+      "heart": "Chamomile, Geranium",
+      "base": "Cream, Cedar"
+    },
+    "description": "Sleep-time ritual. Soothing lavender softened with chamomile and a hint of cream.",
+    "badge": null,
+    "compareAt": null,
+    "stock": 48,
+    "featured": false,
+    "sort": 5,
+    "sizes": [
+      {
+        "code": "s",
+        "label": "Mini · 3 oz",
+        "weight": "85 g",
+        "burn": "18 hrs",
+        "price": 1300
+      },
+      {
+        "code": "m",
+        "label": "Travel · 6 oz",
+        "weight": "170 g",
+        "burn": "35 hrs",
+        "price": 2350
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Nia P.",
+        "rating": 5,
+        "title": "Bedtime must-have",
+        "body": "Genuinely helps me wind down.",
+        "date": "2026-09-14"
+      }
+    ]
+  },
+  {
+    "slug": "fig-and-honey",
+    "name": "Fig & Honey",
+    "tagline": "Ripe fig, wild honey & green leaves",
+    "category": "Jar Candles",
+    "vessel": "tumbler",
+    "wax": "#e8d3a6",
+    "accent": "#8d7a3a",
+    "scentFamily": "Fruity",
+    "notes": {
+      "top": "Green Fig Leaf, Pear",
+      "heart": "Ripe Fig, Honey",
+      "base": "Beeswax, Cedar"
+    },
+    "description": "Sun-warmed fruit and golden honey. Juicy, mellow and endlessly comforting.",
+    "badge": null,
+    "compareAt": null,
+    "stock": 30,
+    "featured": false,
+    "sort": 6,
+    "sizes": [
+      {
+        "code": "s",
+        "label": "Petite · 4 oz",
+        "weight": "113 g",
+        "burn": "25 hrs",
+        "price": 1800
+      },
+      {
+        "code": "m",
+        "label": "Classic · 8 oz",
+        "weight": "227 g",
+        "burn": "50 hrs",
+        "price": 3400
+      },
+      {
+        "code": "l",
+        "label": "Grand · 12 oz",
+        "weight": "340 g",
+        "burn": "75 hrs",
+        "price": 4700
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Chloe D.",
+        "rating": 4,
+        "title": "Yum",
+        "body": "Smells good enough to eat.",
+        "date": "2026-08-19"
+      }
+    ]
+  },
+  {
+    "slug": "ivory-pillar",
+    "name": "Ivory Pillar",
+    "tagline": "Hand-carved, unscented elegance",
+    "category": "Pillars",
+    "vessel": "pillar",
+    "wax": "#f6ecd9",
+    "accent": "#d9c39a",
+    "scentFamily": "Unscented",
+    "notes": {
+      "top": "Unscented",
+      "heart": "Unscented",
+      "base": "Unscented"
+    },
+    "description": "A sculptural pillar in creamy ivory soy wax. Ideal for dinner tables and altars, with no scent to compete with the food.",
+    "badge": null,
+    "compareAt": null,
+    "stock": 70,
+    "featured": false,
+    "sort": 7,
+    "sizes": [
+      {
+        "code": "s",
+        "label": "Short · 3×4 in",
+        "weight": "280 g",
+        "burn": "60 hrs",
+        "price": 2100
+      },
+      {
+        "code": "m",
+        "label": "Tall · 3×6 in",
+        "weight": "420 g",
+        "burn": "90 hrs",
+        "price": 3100
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Ruth H.",
+        "rating": 5,
+        "title": "Beautiful on the table",
+        "body": "Clean, drip-free burn.",
+        "date": "2026-09-25"
+      }
+    ]
+  },
+  {
+    "slug": "terracotta-pillar",
+    "name": "Terracotta Pillar",
+    "tagline": "Earthy tone, soft cedar scent",
+    "category": "Pillars",
+    "vessel": "pillar",
+    "wax": "#d99a76",
+    "accent": "#a65a3a",
+    "scentFamily": "Dark & Woody",
+    "notes": {
+      "top": "Cedar Leaf",
+      "heart": "Dry Grass, Clay",
+      "base": "Warm Wood"
+    },
+    "description": "The colour of desert dusk. A lightly scented pillar that adds earthy warmth to shelves and mantels.",
+    "badge": "Limited",
+    "compareAt": null,
+    "stock": 12,
+    "featured": false,
+    "sort": 8,
+    "sizes": [
+      {
+        "code": "s",
+        "label": "Short · 3×4 in",
+        "weight": "280 g",
+        "burn": "60 hrs",
+        "price": 2200
+      },
+      {
+        "code": "m",
+        "label": "Tall · 3×6 in",
+        "weight": "420 g",
+        "burn": "90 hrs",
+        "price": 3250
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Mo A.",
+        "rating": 4,
+        "title": "Stunning colour",
+        "body": "Looks fantastic styled with dried grass.",
+        "date": "2026-10-01"
+      }
+    ]
+  },
+  {
+    "slug": "citrus-grove",
+    "name": "Citrus Grove",
+    "tagline": "Blood orange, grapefruit & neroli",
+    "category": "Tin Candles",
+    "vessel": "tin",
+    "wax": "#f7d9a0",
+    "accent": "#e08a2e",
+    "scentFamily": "Fresh & Green",
+    "notes": {
+      "top": "Blood Orange, Grapefruit",
+      "heart": "Neroli, Mint",
+      "base": "Vetiver, Musk"
+    },
+    "description": "A burst of morning sunshine. Zesty, uplifting and perfect for kitchens and home offices.",
+    "badge": null,
+    "compareAt": null,
+    "stock": 55,
+    "featured": false,
+    "sort": 9,
+    "sizes": [
+      {
+        "code": "s",
+        "label": "Mini · 3 oz",
+        "weight": "85 g",
+        "burn": "18 hrs",
+        "price": 1300
+      },
+      {
+        "code": "m",
+        "label": "Travel · 6 oz",
+        "weight": "170 g",
+        "burn": "35 hrs",
+        "price": 2350
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Eli J.",
+        "rating": 5,
+        "title": "Wakes me up",
+        "body": "My desk candle of choice.",
+        "date": "2026-09-08"
+      }
+    ]
+  },
+  {
+    "slug": "the-ritual-set",
+    "name": "The Ritual Set",
+    "tagline": "Three mini candles, boxed",
+    "category": "Gift Sets",
+    "vessel": "tin",
+    "wax": "#e9d3b4",
+    "accent": "#a8703f",
+    "scentFamily": "Collection",
+    "notes": {
+      "top": "Golden Hour · Lavender Fields · Citrus Grove",
+      "heart": "Three 3 oz tins",
+      "base": "Gift-boxed with matches"
+    },
+    "description": "Our three signature mini tins in a keepsake box with a matchbook and ribbon. Gift-ready with a handwritten note on request.",
+    "badge": "Gift",
+    "compareAt": 4150,
+    "stock": 22,
+    "featured": true,
+    "sort": 10,
+    "sizes": [
+      {
+        "code": "m",
+        "label": "Set of 3",
+        "weight": "255 g",
+        "burn": "54 hrs",
+        "price": 3650
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Hannah L.",
+        "rating": 5,
+        "title": "The ideal gift",
+        "body": "Packaging is gorgeous.",
+        "date": "2026-10-30"
+      }
+    ]
+  },
+  {
+    "slug": "home-glow-trio",
+    "name": "Home Glow Trio",
+    "tagline": "Three jars, one cosy home",
+    "category": "Gift Sets",
+    "vessel": "jar",
+    "wax": "#ecd6b0",
+    "accent": "#8a5a30",
+    "scentFamily": "Collection",
+    "notes": {
+      "top": "Golden Hour · Sea Salt & Sage · Rose Petal Dream",
+      "heart": "Three 8 oz jars",
+      "base": "Gift-boxed"
+    },
+    "description": "A trio of classic 8 oz jars for every room in the house. Save when you bundle.",
+    "badge": null,
+    "compareAt": 10150,
+    "stock": 15,
+    "featured": false,
+    "sort": 11,
+    "sizes": [
+      {
+        "code": "m",
+        "label": "Set of 3",
+        "weight": "681 g",
+        "burn": "150 hrs",
+        "price": 8850
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Zainab F.",
+        "rating": 5,
+        "title": "Worth it",
+        "body": "Lasted weeks and every one smelled amazing.",
+        "date": "2026-09-21"
+      }
+    ]
+  }
+]
