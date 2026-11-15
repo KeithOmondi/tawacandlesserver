@@ -49,6 +49,14 @@ const schema = z.object({
   /** Random string embedded in the callback URL path. */
   MPESA_CALLBACK_SECRET: z.string().default(''),
 
+  /** Cloudflare R2 (S3-compatible) for product images. Leave empty to disable image uploads. */
+  R2_ACCOUNT_ID: z.string().default(''),
+  R2_ACCESS_KEY_ID: z.string().default(''),
+  R2_SECRET_ACCESS_KEY: z.string().default(''),
+  R2_BUCKET: z.string().default(''),
+  /** Public base URL of the bucket (r2.dev URL or custom domain), no trailing slash. */
+  R2_PUBLIC_URL: z.string().default(''),
+
   UPLOAD_DIR: z.string().default('uploads'),
   LOG_LEVEL: z.enum(['fatal', 'error', 'warn', 'info', 'debug', 'trace', 'silent']).default('info'),
 })

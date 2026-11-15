@@ -8,7 +8,7 @@ export const MAX_UPLOAD_BYTES = 2 * 1024 * 1024
 const root = resolve(config.UPLOAD_DIR)
 
 /** Detects the real image type from magic bytes — never trusts the client-provided mimetype/extension. */
-function sniff(b: Buffer): { ext: string; mime: string } | null {
+export function sniff(b: Buffer): { ext: string; mime: string } | null {
   if (b.length > 12 && b[0] === 0x89 && b.toString('ascii', 1, 4) === 'PNG') return { ext: 'png', mime: 'image/png' }
   if (b.length > 3 && b[0] === 0xff && b[1] === 0xd8 && b[2] === 0xff) return { ext: 'jpg', mime: 'image/jpeg' }
   if (b.length > 12 && b.toString('ascii', 0, 4) === 'RIFF' && b.toString('ascii', 8, 12) === 'WEBP') return { ext: 'webp', mime: 'image/webp' }

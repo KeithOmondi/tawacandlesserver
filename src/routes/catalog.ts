@@ -8,7 +8,7 @@ export const router = Router()
 
 export const PRODUCT_SELECT = `
   SELECT p.id, p.slug, p.name, p.tagline, p.category, p.vessel, p.wax, p.accent, p.scent_family AS "scentFamily", p.notes,
-         p.description, p.badge, p.compare_at AS "compareAt", p.stock, p.featured, p.active, p.sort,
+         p.description, p.image, p.badge, p.compare_at AS "compareAt", p.stock, p.featured, p.active, p.sort,
          COALESCE((SELECT json_agg(json_build_object('id', s.code, 'label', s.label, 'weight', s.weight, 'burn', s.burn, 'price', s.price) ORDER BY s.price)
                    FROM product_sizes s WHERE s.product_id = p.id), '[]'::json) AS sizes,
          COALESCE((SELECT round(avg(r.rating)::numeric, 1)::float8 FROM reviews r WHERE r.product_id = p.id AND r.status = 'published'), 0) AS rating,

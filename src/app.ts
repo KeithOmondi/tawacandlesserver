@@ -48,7 +48,7 @@ export function createApp() {
         'script-src': ["'self'"],
         'style-src': ["'self'", "'unsafe-inline'", 'https://fonts.googleapis.com'],
         'font-src': ["'self'", 'https://fonts.gstatic.com'],
-        'img-src': ["'self'", 'data:', 'blob:'],
+        'img-src': ["'self'", 'data:', 'blob:', ...(config.R2_PUBLIC_URL ? [new URL(config.R2_PUBLIC_URL).origin] : [])],
         'connect-src': ["'self'"],
         'object-src': ["'none'"],
         'base-uri': ["'self'"],

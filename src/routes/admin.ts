@@ -1,6 +1,8 @@
 import { createReadStream } from 'node:fs'
 import { Router } from 'express'
+import multer from 'multer'
 import { z } from 'zod'
+import { deleteProductImage, uploadProductImage } from '../lib/r2.ts'
 import { getDb } from '../db/index.ts'
 import { audit } from '../lib/audit.ts'
 import { badRequest, conflict, forbidden, notFound } from '../lib/errors.ts'
@@ -151,6 +153,29 @@ router.put('/products/:id', async (req, res) => {
   await saveProduct(pid, parse(productSchema, req.body))
   await audit('admin.product.update', req, { target: pid })
   const db = await getDb()
+  res.json({ product: (await db.query(`${PRODUCT_SELECT} WHERE p.id = $1`, [pid])).rows[0] })
+})
+const imageUpload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 5 * 1024 * 1024, files: 1, fields: 2 } })
+router.post('/products/:id/image', imageUpload.single('image'), async (req, res) => {
+  const pid = id(req.params.id)
+  if (!req.file) throw badRequest('Choose an image to upload.')
+  const db = await getDb()
+  const old = (await db.query<{ image: string | null }>('SELECT image FROM products WHERE id = $1', [pid])).rows[0]
+  if (!old) throw notFound('Product not found')
+  const url = await uploadProductImage(req.file.buffer)
+  await db.query('UPDATE products SET image = $2, updated_at = now() WHERE id = $1', [pid, url])
+  await deleteProductImage(old.image)
+  await audit('admin.product.image', req, { target: pid })
+  res.json({ product: (await db.query(`${PRODUCT_SELECT} WHERE p.id = $1`, [pid])).rows[0] })
+})
+router.delete('/products/:id/image', async (req, res) => {
+  const pid = id(req.params.id)
+  const db = await getDb()
+  const old = (await db.query<{ image: string | null }>('SELECT image FROM products WHERE id = $1', [pid])).rows[0]
+  if (!old) throw notFound('Product not found')
+  await db.query('UPDATE products SET image = NULL, updated_at = now() WHERE id = $1', [pid])
+  await deleteProductImage(old.image)
+  await audit('admin.product.image.remove', req, { target: pid })
   res.json({ product: (await db.query(`${PRODUCT_SELECT} WHERE p.id = $1`, [pid])).rows[0] })
 })
 router.patch('/products/:id/stock', async (req, res) => {
