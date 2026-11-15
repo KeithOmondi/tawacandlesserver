@@ -9,6 +9,7 @@ export const r2Enabled = () => !!(config.R2_ACCOUNT_ID && config.R2_ACCESS_KEY_I
 let client: S3Client | null = null
 const s3 = () => (client ??= new S3Client({
   region: 'auto',
+  forcePathStyle: true,
   endpoint: `https://${config.R2_ACCOUNT_ID}.r2.cloudflarestorage.com`,
   credentials: { accessKeyId: config.R2_ACCESS_KEY_ID, secretAccessKey: config.R2_SECRET_ACCESS_KEY },
 }))
